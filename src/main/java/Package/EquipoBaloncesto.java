@@ -10,7 +10,7 @@ public class EquipoBaloncesto {
 	 * 
 	 * @param partidos
 	 */
-	public void historialPartidos(string partidos) {
+	public void historialPartidos(String partidos) {
 		// TODO - implement EquipoBaloncesto.historialPartidos
 		throw new UnsupportedOperationException();
 	}

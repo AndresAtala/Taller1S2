@@ -1,71 +1,69 @@
 package Package;
-
 public class Deportista {
 
-	private string nombre;
-	private string apellido;
-	private string direccionDeCorreo;
-	private string numeroDeContacto;
-	private string deporteQuePractica;
+	private String Nombre;
+	private String Apellido;
+	private String DireccionDeCorreo;
+	private String NumeroDeContacto;
+	private String DeporteQuePractica;
 
-	public string getNombre() {
-		return this.nombre;
+	public String getNombre() {
+		return this.Nombre;
 	}
 
 	/**
-	 * 
+	 *
 	 * @param nombre
 	 */
-	public void setNombre(string nombre) {
-		this.nombre = nombre;
+	public void setNombre(String nombre) {
+		this.Nombre = nombre;
 	}
 
-	public string getApellido() {
-		return this.apellido;
+	public String getApellido() {
+		return this.Apellido;
 	}
 
 	/**
-	 * 
+	 *
 	 * @param apellido
 	 */
-	public void setApellido(string apellido) {
-		this.apellido = apellido;
+	public void setApellido(String apellido) {
+		this.Apellido = apellido;
 	}
 
-	public string getDireccionDeCorreo() {
-		return this.direccionDeCorreo;
+	public String getDireccionDeCorreo() {
+		return this.DireccionDeCorreo;
 	}
 
 	/**
-	 * 
+	 *
 	 * @param direccionDeCorreo
 	 */
-	public void setDireccionDeCorreo(string direccionDeCorreo) {
-		this.direccionDeCorreo = direccionDeCorreo;
+	public void setDireccionDeCorreo(String direccionDeCorreo) {
+		this.DireccionDeCorreo = direccionDeCorreo;
 	}
 
-	public string getNumeroDeContacto() {
-		return this.numeroDeContacto;
+	public String getNumeroDeContacto() {
+		return this.NumeroDeContacto;
 	}
 
 	/**
-	 * 
+	 *
 	 * @param numeroDeContacto
 	 */
-	public void setNumeroDeContacto(string numeroDeContacto) {
-		this.numeroDeContacto = numeroDeContacto;
+	public void setNumeroDeContacto(String numeroDeContacto) {
+		this.NumeroDeContacto = numeroDeContacto;
 	}
 
-	public string getDeporteQuePractica() {
-		return this.deporteQuePractica;
+	public String getDeporteQuePractica() {
+		return this.DeporteQuePractica;
 	}
 
 	/**
-	 * 
+	 *
 	 * @param deporteQuePractica
 	 */
-	public void setDeporteQuePractica(string deporteQuePractica) {
-		this.deporteQuePractica = deporteQuePractica;
+	public void setDeporteQuePractica(String deporteQuePractica) {
+		this.DeporteQuePractica = deporteQuePractica;
 	}
-
 }

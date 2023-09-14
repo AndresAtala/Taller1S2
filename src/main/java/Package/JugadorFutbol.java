@@ -1,19 +1,18 @@
 package Package;
+import java.util.ArrayList;
+import java.util.List;
 
 public class JugadorFutbol extends Deportista {
 
 	private boolean delantero;
 	private boolean defensa;
 	private boolean portero;
-
-
-	public JugadorFutbol(String nombre, int edad, boolean delantero, boolean defensa, boolean portero) {
-		super(nombre, edad);
+	public JugadorFutbol(String nombre, String apellido, String correo, String contacto, String deporte,
+						 boolean delantero, boolean defensa, boolean portero) {
+		super();
 		this.delantero = delantero;
 		this.defensa = defensa;
-		this.portero = portero;
-	}
-
+		this.portero = portero;}
 
 	public boolean isDelantero() {
 		return delantero;
@@ -38,6 +37,23 @@ public class JugadorFutbol extends Deportista {
 
 	public void setPortero(boolean portero) {
 		this.portero = portero;
+	}
+	public static void main(String[] args) {
+		List<JugadorFutbol> listaJugadoresFutbol = new ArrayList<>();
+		JugadorFutbol jugador1 = new JugadorFutbol("juanito1", "Apellido1", "correo1@example.com", "3729573857", "Fútbol", true, false, false);
+		listaJugadoresFutbol.add(jugador1);
+
+		for (JugadorFutbol jugador : listaJugadoresFutbol) {
+			System.out.println("Nombre: " + jugador.getNombre());
+			System.out.println("Apellido: " + jugador.getApellido());
+			System.out.println("Correo: " + jugador.getDireccionDeCorreo());
+			System.out.println("Contacto: " + jugador.getNumeroDeContacto());
+			System.out.println("Deporte: " + jugador.getDeporteQuePractica());
+			System.out.println("Delantero: " + jugador.isDelantero());
+			System.out.println("Defensa: " + jugador.isDefensa());
+			System.out.println("Portero: " + jugador.isPortero());
+			System.out.println();
+		}
 	}
 }
 

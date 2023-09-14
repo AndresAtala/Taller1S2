@@ -6,7 +6,7 @@ public class Partido {
 	private String resultado;
 	private String fecha;
 	private String lugarPartido;
-	
+
 	public Partido(String equipoOponente, String resultado, String fecha, String lugarPartido) {
 		this.equipoOponente = equipoOponente;
 		this.resultado = resultado;

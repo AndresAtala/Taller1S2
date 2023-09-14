@@ -3,10 +3,10 @@ package Package;
 public class Entrenador extends Deportista {
 
 	EquipoBaloncesto entrenador;
-	private string experencia;
-	private string Especialidad;
+	private String experencia;
+	private String Especialidad;
 
-	public string getExperencia() {
+	public String getExperencia() {
 		return this.experencia;
 	}
 
@@ -14,11 +14,11 @@ public class Entrenador extends Deportista {
 	 * 
 	 * @param experencia
 	 */
-	public void setExperencia(string experencia) {
+	public void setExperencia(String experencia) {
 		this.experencia = experencia;
 	}
 
-	public string getEspecialidad() {
+	public String getEspecialidad() {
 		// TODO - implement Entrenador.getEspecialidad
 		throw new UnsupportedOperationException();
 	}
@@ -27,7 +27,7 @@ public class Entrenador extends Deportista {
 	 * 
 	 * @param Especialidad
 	 */
-	public void setEspecialidad(string Especialidad) {
+	public void setEspecialidad(String Especialidad) {
 		// TODO - implement Entrenador.setEspecialidad
 		throw new UnsupportedOperationException();
 	}
