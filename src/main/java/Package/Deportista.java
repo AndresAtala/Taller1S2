@@ -6,6 +6,16 @@ public class Deportista {
 	private String DireccionDeCorreo;
 	private String NumeroDeContacto;
 	private String DeporteQuePractica;
+	public Deportista(String nombre, String apellido, String direccionDeCorreo, String numeroDeContacto, String deporteQuePractica) {
+		this.Nombre = nombre;
+		this.Apellido = apellido;
+		this.DireccionDeCorreo = direccionDeCorreo;
+		this.NumeroDeContacto = numeroDeContacto;
+		this.DeporteQuePractica = deporteQuePractica;}
+
+	public Deportista() {
+
+	}
 
 	public String getNombre() {
 		return this.Nombre;
