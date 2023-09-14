@@ -6,14 +6,18 @@ public class JugadorTenis extends Deportista {
 	private boolean red;
 	private boolean volea;
 
+	// Constructor
+	public JugadorTenis(String nombre, int edad, boolean saque, boolean red, boolean volea) {
+		super(nombre, edad);
+		this.saque = saque;
+		this.red = red;
+		this.volea = volea;
+	}
+
 	public boolean getSaque() {
 		return this.saque;
 	}
 
-	/**
-	 * 
-	 * @param saque
-	 */
 	public void setSaque(boolean saque) {
 		this.saque = saque;
 	}
@@ -22,10 +26,6 @@ public class JugadorTenis extends Deportista {
 		return this.red;
 	}
 
-	/**
-	 * 
-	 * @param red
-	 */
 	public void setRed(boolean red) {
 		this.red = red;
 	}
@@ -34,12 +34,7 @@ public class JugadorTenis extends Deportista {
 		return this.volea;
 	}
 
-	/**
-	 * 
-	 * @param volea
-	 */
 	public void setVolea(boolean volea) {
 		this.volea = volea;
 	}
-
 }

@@ -6,14 +6,18 @@ public class JugadorBaloncesto extends Deportista {
 	private boolean escolta;
 	private boolean pivot;
 
+	// Constructor
+	public JugadorBaloncesto(String nombre, int edad, boolean base, boolean escolta, boolean pivot) {
+		super(nombre, edad);
+		this.base = base;
+		this.escolta = escolta;
+		this.pivot = pivot;
+	}
+
 	public boolean getBase() {
 		return this.base;
 	}
 
-	/**
-	 * 
-	 * @param base
-	 */
 	public void setBase(boolean base) {
 		this.base = base;
 	}
@@ -22,10 +26,6 @@ public class JugadorBaloncesto extends Deportista {
 		return this.escolta;
 	}
 
-	/**
-	 * 
-	 * @param escolta
-	 */
 	public void setEscolta(boolean escolta) {
 		this.escolta = escolta;
 	}
@@ -34,12 +34,7 @@ public class JugadorBaloncesto extends Deportista {
 		return this.pivot;
 	}
 
-	/**
-	 * 
-	 * @param pivot
-	 */
 	public void setPivot(boolean pivot) {
 		this.pivot = pivot;
 	}
-
 }
