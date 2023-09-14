@@ -6,6 +6,10 @@ public class Entrenador extends Deportista {
 	private String experencia;
 	private String Especialidad;
 
+	public Entrenador(String nombre, String apellido, String direccionDeCorreo, String numeroDeContacto, String deporteQuePractica) {
+		super(nombre, apellido, direccionDeCorreo, numeroDeContacto, deporteQuePractica);
+	}
+
 	public String getExperencia() {
 		return this.experencia;
 	}
